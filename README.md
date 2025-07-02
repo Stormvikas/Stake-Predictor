@@ -11,8 +11,8 @@
 ```bash
 pkg update && pkg install nodejs git
 npm install -g expo-cli eas-cli
-git clone https://github.com/yourname/stake-mines-ai-expo.git
-cd stake-mines-ai-expo
+git clone https://github.com/Stormvikas/Stake-Predictor.git
+cd Stake-Predictor
 npm install
 expo start --tunnel
 ```
