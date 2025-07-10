@@ -16,4 +16,13 @@ export default function Verifier({ setServerSeed, setClientSeed, setNonce }) {
             const data = JSON.parse(jsonInput);
             if (data.serverSeed) setServerSeed(data.serverSeed);
             if (data.clientSeed) setClientSeed(data.clientSeed);
-            if (data.nonce !== undefined) setNonce(data
+            if (data.nonce !== undefined) setNonce(data.nonce.toString());
+          } catch (e) {
+            Alert.alert('Invalid JSON', 'Check your input.');
+          }
+        },
+      },
+    ],
+    'plain-text'
+  );
+}
