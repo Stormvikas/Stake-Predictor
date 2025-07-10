@@ -1,21 +1,26 @@
 {
   "expo": {
-    "name": "Stake Predictor",
-    "slug": "stake-mines-ai-expo",
+    "name": "Poppy 💥",
+    "slug": "poppy-verifier",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "scheme": "stakepredictor",
     "userInterfaceStyle": "dark",
-    "platforms": ["android"],
-    "sdkVersion": "50.0.0",
-    "android": {
-      "package": "com.stormvikas.stakepredictor",
-      "versionCode": 1,
-      "permissions": []
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
-    }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "platforms": [
+      "android",
+      "ios",
+      "web"
+    ]
   }
 }
